@@ -16,10 +16,10 @@
     </h2>
 
     <div class="col-lg-2 text-left">
-      <img class="img-fluid img-thumbnail" src="{{.Site.Params.author_image_1 | relURL}}" alt="biology_icon">
-      <img class="img-fluid img-thumbnail" src="{{.Site.Params.author_image_2 | relURL}}" alt="hardware_icon">
-      <img class="img-fluid img-thumbnail" src="{{.Site.Params.author_image_3 | relURL}}" alt="software_icon">
-      <img class="img-fluid img-thumbnail" src="{{.Site.Params.author_image_4 | relURL}}" alt="data_icon">
+      <a href="/tags/biology"> <img class="img-fluid img-thumbnail" src="{{.Site.Params.author_image_1 | relURL}}" alt="biology_icon"></a>
+      <a href="/tags/hardware"> <img class="img-fluid img-thumbnail" src="{{.Site.Params.author_image_2 | relURL}}" alt="hardware_icon"></a>
+      <a href="/tags/software"><img class="img-fluid img-thumbnail" src="{{.Site.Params.author_image_3 | relURL}}" alt="software_icon"></a>
+      <a href="/tags/data"><img class="img-fluid img-thumbnail" src="{{.Site.Params.author_image_4 | relURL}}" alt="data_icon"></a>
     </div>
     {{ partial "social-icons.html" .}}
 
